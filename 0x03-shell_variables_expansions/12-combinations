@@ -1,2 +1,2 @@
 #!/bin/bash
-echo {a..z}{a..z} | tr -d "n" | sed 's/[^ ]*/&n/g' | sort -u | grep -v oo
+printf "%s\n" {a..z}{a..z} | grep -v "oo"
