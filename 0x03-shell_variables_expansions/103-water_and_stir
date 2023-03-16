@@ -1,0 +1,2 @@
+#!/bin/bash
+echo $(($WATER + $STIR)) | bc -l | awk '{print "bestchol"$1}'
